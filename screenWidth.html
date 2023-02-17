@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body onload="myFunction()">
+<h1>HTML DOM Events</h1>
+<h2>The onload Event</h2>
+
+<script>
+
+var size=screen.width;
+setInterval(myFunction(size),1000);
+// var newSize;
+// console.log("outside"+size);
+
+function myFunction(size) {
+    var newSize = screen.width;
+    // console.log("new size"+newSize);
+
+
+    if(size==newSize)
+    {console.log("not changed");
+       return 0;
+        
+    }else{
+        size=newSize
+        console.log(size);
+        return 0;
+    }
+    // console.log();
+}
+</script>
+
+</body>
+</html>

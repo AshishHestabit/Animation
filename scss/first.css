@@ -622,3 +622,11 @@ nav ul li a button {
 .footer .circle i {
   color: gray;
 }
+
+.footer .circle:hover {
+  transform: scale(2);
+}
+
+.footer .size:hover {
+  transform: scale(2);
+}
